@@ -699,7 +699,7 @@ class _StepperState extends State<Stepper> with TickerProviderStateMixin {
         Material(
           elevation: 2.0,
           child: Container(
-            margin: const EdgeInsets.symmetric(horizontal: 24.0),
+            margin: const EdgeInsets.symmetric(horizontal: 4.0),
             child: Row(
               children: children,
             ),
@@ -708,7 +708,7 @@ class _StepperState extends State<Stepper> with TickerProviderStateMixin {
         Expanded(
           child: ListView(
             physics: widget.physics,
-            padding: const EdgeInsets.all(24.0),
+            padding: const EdgeInsets.all(4.0),
             children: <Widget>[
               AnimatedSize(
                 curve: Curves.fastOutSlowIn,
